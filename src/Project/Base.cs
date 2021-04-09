@@ -8,14 +8,14 @@ namespace Project
 {
     public class Base
     {
-        protected virtual void Foo()
+        protected virtual void Bar()
         {
 
         }
 
-        protected void Call()
+        protected void Foo()
         {
-            Foo();
+            Bar();
         }
     }
 }

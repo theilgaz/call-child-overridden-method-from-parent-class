@@ -16,7 +16,7 @@ namespace Project
         {
             InitializeComponent();
             Child child = new Child();
-            child.ExecuteOrder666();
+            child.CallFoo();
         }
     }
 }

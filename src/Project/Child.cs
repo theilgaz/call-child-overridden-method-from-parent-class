@@ -9,14 +9,14 @@ namespace Project
 {
     public class Child:Base
     {
-        public void ExecuteOrder666()
+        public void CallFoo()
         {
-            base.Call();
+            base.Foo();
         }
 
-        protected override void Foo()
+        protected override void Bar()
         {
-            MessageBox.Show("Called Child.Foo");
+            MessageBox.Show("Called Child.Bar");
         }
     }
 }
