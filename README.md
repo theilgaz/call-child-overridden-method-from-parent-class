@@ -9,8 +9,8 @@ when foo is called from the child class, child's bar will be called, instead of 
 MyForm.Ctor
 
 #### Steps
-1. Call Child.ExecuteOrder666() method in MyForm.Ctor().
-2. This method will execute Base.Call().
-3. Base.Call() will execute Base.Foo().
-4. Base.Foo() will execute Child.Foo().
-5. MessageBox will raise for "Called Child.Foo"
+1. Call Child.CallFoo() method in MyForm.Ctor().
+2. This method will execute Base.Foo().
+3. Base.Foo() will execute Base.Bar().
+4. Base.Bar() will execute Child.Bar().
+5. MessageBox will raise for "Called Child.Bar"
